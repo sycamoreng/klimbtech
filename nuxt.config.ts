@@ -15,20 +15,20 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
-      title: 'Klimb Technology — High-end software for ambitious businesses',
+      title: 'Klimb Technology — Premium software products & technology consulting',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'Klimb Technology builds high-end SaaS products and offers expert technology consulting that power customer engagement and communications for ambitious, high-growth businesses.',
+            'Klimb Technology designs high-end SaaS products and delivers expert technology consulting that elevate customer engagement, communication, and operations for ambitious, high-growth businesses.',
         },
-        { property: 'og:title', content: 'Klimb Technology' },
+        { property: 'og:title', content: 'Klimb Technology — Premium software products & technology consulting' },
         {
           property: 'og:description',
           content:
-            'High-end SaaS products that ambitious, high-growth businesses embed into their operations.',
+            'High-end SaaS products and expert technology consulting that ambitious, high-growth businesses embed into their operations.',
         },
         { property: 'og:type', content: 'website' },
       ],
